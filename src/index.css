@@ -34,3 +34,9 @@ html, body {
   height: 100%;
   margin-top: 0;
 }
+.quote{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
