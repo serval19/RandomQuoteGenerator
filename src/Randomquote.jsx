@@ -5,7 +5,8 @@ function randomquotegen(){
     const fetchrandomfact=async ()=>{
         const url="https://uselessfacts.jsph.pl/random.json?language=en"
         const response=await fetch(url)
-        console.log(response);
+        const data=await response.json();
+        setFact(data.text)
         
     }
     return(
@@ -16,7 +17,7 @@ function randomquotegen(){
             <button className="button" onClick={fetchrandomfact}>Generate a random quote</button>
             <br/>
             <br/>
-            <p className="quote"></p>
+            <p className="quote">{fact}</p>
             
            
 
