@@ -13,7 +13,7 @@ function randomquotegen(){
         <>
         
         <div className="container">
-            <h1>Random Quote Generator</h1>
+            <h1>Random Fact Generator</h1>
             <button className="button" onClick={fetchrandomfact}>Generate a random quote</button>
             <br/>
             <br/>
