@@ -1,4 +1,4 @@
-Click the button to generate a Random Quote. <br/>
+Click the button to generate a Random Fact. <br/>
 Hosted at : https://random-quote-generator-nu-ochre.vercel.app/
 ## How to run this project?
 1: Clone the repo <br/>
